@@ -256,6 +256,7 @@ namespace Sapphire::Network::Packets
       memset( &m_data, 0, sizeof( T ) );
 
       // The IPC type itself.
+      m_ipcHdr.reserved = 0x0014;
       m_ipcHdr.type = static_cast< ServerZoneIpcType >( m_data._ServerIpcType );
       m_ipcHdr.timestamp = Common::Util::getTimeSeconds();
       m_segHdr.size = sizeof( T ) + sizeof( FFXIVARR_IPC_HEADER ) + sizeof( FFXIVARR_PACKET_SEGMENT_HEADER );

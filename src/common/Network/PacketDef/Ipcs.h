@@ -93,8 +93,8 @@ namespace Sapphire::Network::Packets
     ServerNotice = 0x00E9, // updated 5.25
     SetOnlineStatus = 0x0381, // updated 5.25
 
-    CountdownInitiate = 0x0309, // updated 5.11
-    CountdownCancel = 0x00D9, // updated 5.18
+    CountdownInitiate = 0x009A, // updated 5.25
+    CountdownCancel = 0x0244, // updated 5.25
 
     PlayerAddedToBlacklist = 0x033F, // updated 5.1
     PlayerRemovedFromBlacklist = 0x0385, // updated 5.1
@@ -293,7 +293,7 @@ namespace Sapphire::Network::Packets
 
     CFRegisterDuty = 0x0118, // updated 5.21 hotfix
     CFRegisterRoulette = 0x037A, // updated 5.21 hotfix
-    PlayTimeHandler = 0x0276, // updated 5.1
+    PlayTimeHandler = 0x02FE, // updated 5.25 4/22/20
     LogoutHandler = 0x00B7, // updated 5.25
     CancelLogout = 0x008F, // updated 5.1
 
