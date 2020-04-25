@@ -1828,7 +1828,7 @@ namespace Sapphire::Network::Packets::Server
     uint8_t padding[ 3 ];
   };
 
-  struct FFXIVIpcLandSetInitialize : FFXIVIpcBasePacket< LandSetInitialize >
+  struct FFXIVIpcLandSetInitialize : FFXIVIpcBasePacket< LandSetInitialize > //Size618
   {
     Common::LandIdent landIdent;
     uint8_t unknown1;
@@ -1895,7 +1895,7 @@ namespace Sapphire::Network::Packets::Server
   };
 
 
-  struct FFXIVIpcHousingWardInfo : FFXIVIpcBasePacket< HousingWardInfo >
+  struct FFXIVIpcHousingWardInfo : FFXIVIpcBasePacket< HousingWardInfo > //2320
   {
     Common::LandIdent landIdent;
 

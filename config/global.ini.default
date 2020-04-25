@@ -3,7 +3,7 @@ Host = 127.0.0.1
 Port = 3306
 Database = sapphire
 Username = root
-Password = suprgurl265
+Password = 
 SyncThreads = 2
 AsyncThreads = 2
 
