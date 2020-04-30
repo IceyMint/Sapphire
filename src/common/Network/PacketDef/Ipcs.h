@@ -233,7 +233,7 @@ namespace Sapphire::Network::Packets
     LandUpdate = 0x0235, // updated 5.0
     YardObjectSpawn = 0x0236, // updated 5.0
     HousingIndoorInitialize = 0xF237,//0x0237, // updated 5.0
-    LandPriceUpdate = 0x0238, // updated 5.0
+    LandPriceUpdate = 0x0262, // updated 5.25
     LandInfoSign = 0x037F, // updated 5.25
     LandRename = 0x023A, // updated 5.0
     HousingEstateGreeting = 0x023B, // updated 5.0
@@ -288,11 +288,9 @@ namespace Sapphire::Network::Packets
 
     FinishLoadingHandler = 0x008A, // updated 5.25
 
-    CFCommenceHandler = 0x0078, // updated 5.21 hotfix
-
-
-    CFRegisterDuty = 0x0118, // updated 5.21 hotfix
-    CFRegisterRoulette = 0x037A, // updated 5.21 hotfix
+    CFCommenceHandler = 0x0228, // updated 5.25
+    CFRegisterDuty = 0x0180, // updated 5.25
+    CFRegisterRoulette = 0x0395, // updated 5.25
     PlayTimeHandler = 0x02FE, // updated 5.25 4/22/20
     LogoutHandler = 0x00B7, // updated 5.25
     CancelLogout = 0x008F, // updated 5.1
@@ -348,15 +346,15 @@ namespace Sapphire::Network::Packets
     
     InventoryEquipRecommendedItems = 0x0149, // updated 5.0
 
-    ReqPlaceHousingItem = 0x014B, // updated 5.0
-    BuildPresetHandler = 0x0150, // updated 5.0
+    ReqPlaceHousingItem = 0x037D, // updated 5.0
+    BuildPresetHandler = 0x01F5, // updated 5.25
 
     TalkEventHandler = 0x030F, // updated 5.25
     EmoteEventHandler = 0x01DD, // updated 5.25
     WithinRangeEventHandler = 0x0165, // updated 5.25
     OutOfRangeEventHandler = 0x01EB, // updated 5.25
     EnterTeriEventHandler = 0x00F8, // updated 5.25
-    ShopEventHandler = 0x0156, // updated 5.0
+    ShopEventHandler = 0x03AF, // updated 5.25
 
     ReturnEventHandler = 0x00BB, // updated 5.25
     TradeReturnEventHandler = 0x03B6, // updated 5.25
